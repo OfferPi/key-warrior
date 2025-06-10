@@ -69,7 +69,7 @@ CONFIG_FILENAME=$(basename "$CONFIG_FILE")
 docker run --rm \
   -v "$CONFIG_FILE:/config/$CONFIG_FILENAME" \
   -v "$(realpath "$OUTPUT"):/output" \
-  generator \
+  generate_key_and_csr \
   -c "/config/$CONFIG_FILENAME" \
   -o /output \
   -k "$KEYNAME"
