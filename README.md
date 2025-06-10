@@ -65,7 +65,3 @@ To remove the `key-warrior` command:
 sudo rm /usr/local/bin/key-warrior
 docker image rm generate_key_and_csr
 ```
-```
-```
-```
-```
