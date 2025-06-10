@@ -40,4 +40,4 @@ $SUDO_CMD chmod +x "$INSTALL_PATH"
 
 # Final message
 echo "🎉 Installation complete!"
-echo "You can now run 'csr-generator --help' from anywhere."
+echo "You can now run 'key-warrior --help' from anywhere."
